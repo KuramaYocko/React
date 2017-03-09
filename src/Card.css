@@ -1,0 +1,13 @@
+.formCard{
+	float: left;
+	padding: 15px;
+	width: 300px;	
+	margin: 2%;
+	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+	transition: 0.2s ease-in;  
+}
+
+.formCard:hover{
+	transform:  translateZ(-3px) scale(1.05);
+	box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.45);
+}
